@@ -1,0 +1,97 @@
+.loginform{
+    background:transparent;
+    border:2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 20px black;
+    width:500px;
+    border-radius: 10px;
+    padding:30px 40px;
+
+
+    
+}
+.loginform h1{
+    text-align: center;
+}
+.loginform input-box{
+position:relative;
+width:100%;
+height:40px;
+margin:20px 0;
+}
+
+.input-box input{
+    width:390px;
+    height:50px;
+    background: transparent;
+    border:2px solid white;
+    border-radius:50px;
+    padding:20px 45px 20px 20px;
+    font-size: large;
+    color:aliceblue
+}
+.input-box input::placeholder{
+    color:white;
+    font-size: 20px;
+}
+.input-box .icon1{
+position:relative;
+font-size:xx-large;
+transform: translateY(140%) translateX(1000%);
+}
+.input-box .icon2{
+    position:relative;
+font-size:xx-large;
+transform: translateY(140%) translateX(1000%);
+}
+.remember{
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    font-weight:500;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.remember a{
+    margin-left: 120px;
+    text-decoration: none;
+    color:brown;
+    font-size: medium;
+    font-weight: 500;
+}
+.remember a:hover{
+text-decoration: underline;
+color:red;
+}
+
+.loginform button{
+    width:100%;
+    height:45px;
+    background-color: #fff;
+    border:none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor:pointer;
+    font-size: larger;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    box-shadow: 10px 10px 40px black;
+}
+.signup{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.signup a{
+    text-decoration: none;
+    color:#fff;
+}
+.signup a:hover{
+    text-decoration: underline;
+    color:red;
+}
